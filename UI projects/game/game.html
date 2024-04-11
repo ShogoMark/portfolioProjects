@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Millionaire Game</title>
+</head>
+<body>
+    <div id="header">
+        <img src="download2.jpeg" style="width: 4%; border-radius: 50%;">
+        <h1 style="margin-right: 450px;">The Millionaires Game</h1>
+    </div>
+    <div id="body-main">
+        <div id="question-container1">
+            <h2 id="question-text">Questions</h2>
+            <div id="options-container1">
+                <div class="questions">$100</div>
+                <div class="questions">$200</div>
+                <div class="questions">$300</div>
+                <div class="questions">$400</div>
+                <div class="questions"><h2>$500</h2></div>
+                <div class="questions">$600</div>
+                <div class="questions">$700</div>
+                <div class="questions">$800</div>
+                <div class="questions">$900</div>
+                <div class="questions"><h2>$1,000</h2></div>
+                <div class="questions">$1,100</div>
+                <div class="questions">$1,200</div>
+                <div class="questions">$1,300</div>
+                <div class="questions">$1,400</div>
+                <div class="questions"><h2>$1,500</h2></div>
+            </div>
+        </div>
+        <div style="display: block;">
+            <img src="download2.jpeg" style="width: 70%; margin-left: 60px; border-radius: 50%; margin-bottom: 40px;">
+            <div id="question-container">
+                <h2 class="question-text"></h2>
+            </div>
+            <div><h3 class="question-text"></h3></div>
+            <button id="start-button"><h1>PLAY</h1></button>
+            <div id="options-container">
+               <!--  <div class="question-option" style="color: rgb(56, 2, 46);"></div>
+                <div class="question-option" style="color: rgb(56, 2, 46);"></div>
+                <div class="question-option" style="color: rgb(56, 2, 46);"></div>
+                <div class="question-option" style="color: rgb(56, 2, 46);"></div> -->
+            </div>
+            <div class="options">
+                <button><h2>50:50</h2></button>
+                <button><h2>AUDIENCE</h2></button>
+                <button><h2>WALK AWAY</h2></button>
+            </div>
+        </div>
+        <div id="score-container">
+            <div style="display: flex; align-items: center; justify-content: center;"><h1>CASH</h1></div>
+            <div id="score"><h2>$0</h2></div>
+        </div>
+            <div id="game-over">
+                <div class="gameScore"><h2></h2></div>
+                <div class="gameScore"><h3></h3></div>
+                <div class="gameScore"><p></p></div>
+                <div id="scoreExit" class="gameScore"><button>EXIT</button></div>
+            </div>
+            <div id="audience-response">
+                <div style="display: flex; align-items: center; justify-content: center; margin: 5px">
+                    <h3>Audience Response</h3>
+                    <button id="exit">EXIT</button>
+                </div>
+                <div class="toggle">
+                    <div class="option">
+                        <div class="optioned"></div>
+                        <div class="bar" id="barA"></div>
+                    </div>
+                    <div class="option">
+                        <div class="optioned"></div>
+                        <div class="bar" id="barB"></div>
+                    </div>
+                    <div class="option">
+                        <div class="optioned"></div>
+                        <div class="bar" id="barC"></div>
+                    </div>
+                    <div class="option">
+                        <div class="optioned"></div>
+                        <div class="bar" id="barD"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <script src="test.js"></script>
+</body>
+</html>
