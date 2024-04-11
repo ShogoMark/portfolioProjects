@@ -1,0 +1,236 @@
+body {
+    background-color: rgb(56, 2, 46);
+    font-family: Copperplate gothic bold;
+    color: white;
+    margin: 8px;
+}
+
+#header {
+    display: flex;
+    background-color: rgb(56, 2, 46);
+    font-family: Copperplate gothic bold;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#game-over {
+    top: -500px;
+    position: absolute;
+    background-color: rgb(133, 5, 109);
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.gameScore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#audience-response {
+    top: -500px;
+    position: absolute;
+    background-color: rgb(133, 5, 109);
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option {
+    display: block;
+    margin: 10px;
+}
+
+span {
+    margin-right: 10px;
+}
+
+.bar {
+    height: 20px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#header h1 {
+    margin-left: 350px;
+}
+
+#body-main {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#question-container {
+    margin: 20px;
+}
+
+.question-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#options-container {
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border: 3px solid rgb(133, 5, 109);
+    border-radius: 10px;
+    width: 500px;
+    height: 100px;
+    cursor: pointer;
+}
+
+#options-container1 {
+    margin-left: 0px;
+    display: block;
+    cursor: pointer;
+    flex-direction: column;
+    border: 3px solid rgb(133, 5, 109);
+    border-radius: 10px;
+    width: 270px;
+    height: 600px;
+    color: rgb(56, 2, 46);
+    padding: 10px;
+}
+
+.questions {
+    display: flex;
+    background-color: white;
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+    border:2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.questions:hover {
+    background-color: rgb(133, 5, 109);
+    color: white;
+}
+
+.question-option {
+    display: flex;
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    border:2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#options-container button {
+    margin: 5px;
+    display: flex;
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    border:2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-family: copperplate gothic bold ;
+}
+
+#options-container button:hover {
+    background-color: rgb(56, 2, 46);
+    color: white;
+}
+
+#lifelines-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+}
+
+#score-container {
+    display: block;
+    height: 500px;
+    width: 250px;
+    border: 3px solid rgb(133, 5, 109)
+}
+
+h2 #question-text {
+    margin: 0;
+}
+
+#score {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(133, 5, 109);
+    height: 250px;
+    font-size: 50px;
+}
+
+#main-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options {
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.options button {
+    background-color: rgb(133, 5, 109);
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 10px;
+}
+
+#start-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35px;
+    margin-top: 15px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(133, 5, 109);
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid white
+}
+
+.options button:hover {
+    background-color: white;
+    color:rgb(56, 2, 46);
+    border-color: black;
+}
+
+#start-button:hover {
+    background-color: white;
+    color:rgb(56, 2, 46);
+    border-color: black;
+}
+
+#exit {
+    margin: 10px;
+}
